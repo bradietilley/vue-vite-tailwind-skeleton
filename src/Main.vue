@@ -18,9 +18,9 @@ export default {
   data() {
     return {
       menuItems: [
-        { text: "Link 1", url: "#" },
-        { text: "Link 2", url: "#" },
-        { text: "Link 3", url: "#" },
+        { text: "Home", url: "/" },
+        { text: "Alt Page", url: "/alt-page" },
+        { text: "New Page", url: "/new-page" },
       ],
     };
   },

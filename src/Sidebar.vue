@@ -7,10 +7,10 @@
           v-for="item in menuItems"
           :key="item.text"
         >
-          <a
+          <router-link
             class="block px-3 py-2 rounded-lg text-base font-medium text-white hover:bg-gray-700"
-            :href="item.url"
-          >{{ item.text }}</a>
+            :to="item.url"
+          >{{ item.text }}</router-link>
         </li>
       </ul>
     </div>
